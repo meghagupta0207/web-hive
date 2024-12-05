@@ -1,0 +1,116 @@
+body{
+    background-image: url('https://i.pinimg.com/736x/d6/7b/3e/d67b3e19d8ff05fdc735c5e70feab4f3.jpg');
+    background-repeat:repeat-x;
+    position: absolute;
+    background-color: rgb(255, 228, 196);
+    flex-wrap: wrap;
+}
+
+
+.jaro-uniquifier {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-heading{
+    color: rgb(82, 66, 17);
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    padding-top: 200px;
+    font-family: "Jaro", sans-serif;
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    gap:120px;
+    align-items: center;
+    background-color: rgb(212, 167, 77);
+    padding-left: 100px;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.image-ai button{
+    padding-left: 10px;
+
+}
+
+.advanced-ai button{
+    padding-left: 34px;
+}
+
+.books button{
+    padding-left: 40px;
+}
+.games button{
+    box-shadow: black;
+}
+.menu img{
+    width: 90px;
+    height:60px;
+    border-radius: 10px;
+    transition:transform 0.5s ease-in-out;
+    align-items: center;
+    margin-left: 15px;
+}
+.menu button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.menu :hover{
+    cursor: pointer;
+    transform: scale(1.05) translateX(2px);
+    
+}
+
+.menu .image-ai button{
+    text-decoration: underline black 2px; 
+    background-color: rgb(131, 129, 111);  
+    border-radius: 8px;
+}
+
+.webs{
+    display: flex;
+    gap:110px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 40px;
+
+}
+
+.webs img{
+    width: 400px;
+    height:300px;
+    border-width: 5px black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+
+.webs :hover img{
+    cursor: pointer;
+    transform: scale(1.05) translateX(5px);
+
+}
+
+.webs h3{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
